@@ -1,0 +1,22 @@
+{
+  "name": "ocr-obsidian-auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chokidar": "^4.0.3",
+    "dotenv": "^16.4.7",
+    "form-data": "^4.0.1",
+    "fs-extra": "^11.3.0",
+    "openai": "^4.83.0",
+    "sharp": "^0.33.5"
+  }
+}
